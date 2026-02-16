@@ -917,3 +917,21 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
+.popular-carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.popular-carousel {
+  display: flex;
+  transition: transform 0.5s ease; /* smooth */
+}
+
+.popular-card {
+  flex: 0 0 auto;
+  padding: 0;
+  /* margin-right est calculé par JS */
+}
+
